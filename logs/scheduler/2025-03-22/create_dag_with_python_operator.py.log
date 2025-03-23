@@ -737,3 +737,24 @@ NameError: name 'task_1' is not defined. Did you mean: 'task1'?
 [2025-03-22T19:14:58.147+0000] {logging_mixin.py:190} INFO - [2025-03-22T19:14:58.147+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-22T19:14:58.162+0000] {logging_mixin.py:190} INFO - [2025-03-22T19:14:58.162+0000] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_using_python_operator to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
 [2025-03-22T19:14:58.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.079 seconds
+[2025-03-22T19:15:28.566+0000] {processor.py:186} INFO - Started process (PID=2301) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2025-03-22T19:15:28.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2025-03-22T19:15:28.569+0000] {logging_mixin.py:190} INFO - [2025-03-22T19:15:28.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2025-03-22T19:15:28.591+0000] {processor.py:925} INFO - DAG(s) 'our_first_dag_using_python_operator' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2025-03-22T19:15:28.621+0000] {logging_mixin.py:190} INFO - [2025-03-22T19:15:28.620+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T19:15:28.645+0000] {logging_mixin.py:190} INFO - [2025-03-22T19:15:28.645+0000] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_using_python_operator to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-22T19:15:28.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.122 seconds
+[2025-03-22T19:15:53.929+0000] {processor.py:186} INFO - Started process (PID=2312) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2025-03-22T19:15:53.932+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2025-03-22T19:15:53.934+0000] {logging_mixin.py:190} INFO - [2025-03-22T19:15:53.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2025-03-22T19:15:53.966+0000] {processor.py:925} INFO - DAG(s) 'our_first_dag_using_python_operator' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2025-03-22T19:15:53.993+0000] {logging_mixin.py:190} INFO - [2025-03-22T19:15:53.993+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T19:15:54.011+0000] {logging_mixin.py:190} INFO - [2025-03-22T19:15:54.011+0000] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_using_python_operator to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-22T19:15:54.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.104 seconds
+[2025-03-22T19:16:24.471+0000] {processor.py:186} INFO - Started process (PID=2328) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2025-03-22T19:16:24.473+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2025-03-22T19:16:24.474+0000] {logging_mixin.py:190} INFO - [2025-03-22T19:16:24.474+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2025-03-22T19:16:24.496+0000] {processor.py:925} INFO - DAG(s) 'our_first_dag_using_python_operator' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2025-03-22T19:16:24.520+0000] {logging_mixin.py:190} INFO - [2025-03-22T19:16:24.520+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T19:16:24.537+0000] {logging_mixin.py:190} INFO - [2025-03-22T19:16:24.537+0000] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_using_python_operator to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-22T19:16:24.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.090 seconds
